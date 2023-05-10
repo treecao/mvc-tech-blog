@@ -14,10 +14,10 @@ const sess = {
   secret: process.env.SESSION_SECRET, 
   cookie: {
     //commenting out cookies for testing purposes. Bring back when deploying
-    // maxAge: 300000,
-    // httpOnly: true,
-    // secure: false,
-    // sameSite: 'strict',
+    maxAge: 300000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'strict',
   },
   resave: false,
   saveUninitialized: true,
